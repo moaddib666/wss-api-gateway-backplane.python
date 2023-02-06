@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "apigatewaypythonsdk"
+version = "0.1.0"
+description = ""
+authors = ["Max Nikitenko <max.nikitenko@namecheap.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websockets = "^10.4"
+kombu = "^5.2.4"
+pydantic = "^1.10.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
